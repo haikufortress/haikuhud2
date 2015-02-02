@@ -4,13 +4,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"background"
-		"xpos"			"55"
+		"xpos"			"90"
 		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"30"
 		"tall"			"38"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
         "fillcolor" "BoxColor"			
 	}
 	
