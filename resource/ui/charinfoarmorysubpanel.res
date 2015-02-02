@@ -64,7 +64,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2OpFontSmall"
 		"labelText"		">>"
 		"textAlignment"	"west"
 		"xpos"			"9999"
@@ -82,7 +82,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ArmoryLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"TF2OpFontSmall"
 		"labelText"		"#Armory"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -100,7 +100,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"TF2OpFontSmall"
 		"labelText"		"#Store_FilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"
@@ -118,7 +118,7 @@
 	{
 		"ControlName"		"ComboBox"
 		"fieldName"			"FilterComboBox"
-		"Font"				"HudFontSmallestBold"
+		"Font"				"TF2OpFontSmall"
 		"xpos"				"c-240"
 		"ypos"				"32"
 		"zpos"				"1"
@@ -162,7 +162,7 @@
 		{
 			"ControlName"	"CEconItemDetailsRichText"
 			"fieldName"		"Data_TextRichText"
-			"font"			"ScoreboardSmall"
+			"font"			"TF2OpFontSmall"
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"5"
@@ -304,7 +304,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"TF2OpFontSmall"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-60"

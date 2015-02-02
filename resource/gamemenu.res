@@ -27,7 +27,7 @@
 	}
 	"DemouiButton"
 	{
-		"label" "Demos"
+		"label" "DemoUI"
         "command"   "engine demoui2"
 		"subimage" "glyph_tv"
 	}

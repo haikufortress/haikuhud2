@@ -33,7 +33,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"ChalkboardTitle"
+		"font"			"TimerFont"
 		"fgcolor"		"White"
 	}	
 
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"ChalkboardText"
+		"font"			"TF2OpFontSmall"
 		"xpos"			"c-184"
 		"ypos"			"125"
 		"zpos"			"1"
@@ -102,7 +102,7 @@
 		"wrap"		"0"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"MenuSmallFont"
+		"font"			"TF2OpFontSmall"
 	}
 	
 	"MenuBG"
