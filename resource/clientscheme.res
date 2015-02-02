@@ -6470,7 +6470,7 @@ Scheme
             "font" "resource/fonts/Garm3nFont.ttf"
             "name" "Garm3nFont"
         }
-        "18"
+        "18"	
         {
             "font" "resource/fonts/HelveticaNeue-Extended.otf"
             "name" "HelveticaNeue-Extended"
@@ -6483,7 +6483,7 @@ Scheme
         "20"
         {
     	    "font" "resource/fonts/HelveticaNeue-Light.otf"
-            "name" "HelveticaNeue-Light"
+            "name" "Helvetica Neue Light"
         }
         "21"
         {
