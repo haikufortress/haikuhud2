@@ -20,9 +20,9 @@
 		"xpos"			"c-40"	[$WIN32]
 		"ypos"			"r190"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"37"
+		"wide"			"0"
 		"tall"			"37"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
@@ -38,8 +38,7 @@
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide"			"0"
 		"tall"			"55"
 		"tall_minmode"	"27"
 		"visible"		"1"
@@ -60,8 +59,7 @@
 		"xpos"			"35"	[$X360]
 		"ypos"			"r89"	[$X360]
 		"zpos"			"7"
-		"wide"			"55"
-		"wide_minmode"	"27"
+		"wide"			"0"
 		"tall"			"55"
 		"tall_minmode"	"27"
 		"visible"		"0"
@@ -80,7 +78,7 @@
 		"xpos"			"41"	[$X360]
 		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
-		"wide"			"100"
+		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -120,7 +118,7 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"c-30"	[$WIN32]
+		"xpos"			"c60"	[$WIN32]
 		"ypos"			"r170"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"72"
