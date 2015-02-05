@@ -5,13 +5,9 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r174"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r62"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"xpos"			"c-97"
+		"ypos"			"c53"
+		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
@@ -26,7 +22,7 @@
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_horiz1_blue"
@@ -42,17 +38,13 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"42"
-		"ypos"					"30"
-		"zpos"					"2"
+		"ypos"					"22"
+		"zpos"					"-1"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"visible_minmode"		"1"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"textAlignment_minmode"			"west"
+		"visible"				"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
@@ -60,6 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
+		"fgcolor_override"		"120 120 120 255"
 	}
 
 	"ItemEffectMeter"
@@ -69,11 +62,8 @@
 		"font"					"Default"
 		"xpos"					"47"
 		"ypos"					"28"
-		"ypos_minmode"			"0"
-		"xpos_minmode"			"0"
-		"zpos"					"2"
-		"wide"					"30"
-		"wide_minmode"			"50"
+		"zpos"					"-10"
+		"wide"					"90"
 		"tall"					"5"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -82,5 +72,6 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		"alpha" "200"
 	}					
 }

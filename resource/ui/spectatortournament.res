@@ -10,20 +10,20 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-75"
-		"team1_player_base_y"				"0"
-		"team1_player_delta_x"				"-47"
-		"team1_player_delta_y"				"0"
-		"team2_player_base_offset_x"		"25"
-		"team2_player_base_y"				"0"
-		"team2_player_delta_x"				"47"
-		"team2_player_delta_y"				"0"
+		"team1_player_base_offset_x"		"0"
+		"team1_player_base_y"				"80"
+		"team1_player_delta_x"				"0"
+		"team1_player_delta_y"				"25"
+		"team2_player_base_offset_x"		"0"
+		"team2_player_base_y"				"240"
+		"team2_player_delta_x"				"0"
+		"team2_player_delta_y"				"25"
 		
 		"playerpanels_kv"
 		{
 			"visible"		"0"
-			"wide"			"50"
-			"tall"			"33"
+			"wide"			"200"
+			"tall"			"25"
 			"zpos"			"1"
 			
 			"color_ready"	"0 255 0 220"
@@ -33,18 +33,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
-				"xpos"			"5"
-				"ypos"			"24"
+				"font"			"Gothic16"
+				"xpos"			"60"
+				"ypos"			"6"
 				"zpos"			"5"
-				"wide"			"50"
-				"tall"			"8"
+				"wide"			"100"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"north-west"
-				//"fgcolor"		"235 226 202 255"
+				"fgcolor"		"DarkGreen"
 					
 				if_mvm
 				{
@@ -55,16 +55,30 @@
 					"font"				"PlayerPanelPlayerName"
 				}
 			}
+	        "IDBG"
+	        {
+		       "ControlName"		"ImagePanel"
+		       "fieldName"		"IDBG"
+		       "xpos"			"25"
+		       "ypos"			"0"
+		       "zpos"			"-1"
+		       "wide"			"190"
+		       "tall"	 		"50"
+		       "visible"		"1"
+		       "enabled"		"1"
+		       "fillcolor" "White"
+		       "scaleImage"		"1"
+	        }			
 			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"-2"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"22"
-				"tall"			"22"
+				"wide"			"26"
+				"tall"			"26"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../hud/class_scoutred"
@@ -116,6 +130,7 @@
 				"TFFont"					"HudFontSmallest"
 				"HealthDeathWarningColor"	"HUDDeathWarning"
 				"TextColor"					"HudOffWhite"
+				"bgcolor_override" "GrayBG"
 			}
 			
 			"ReadyBG"
@@ -171,9 +186,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"30"
-				"ypos"			"18"
+				"font"			"Gothic12"
+				"xpos"			"-1"
+				"ypos"			"8"
 				"zpos"			"5"
 				"wide"			"23"
 				"tall"			"10"
@@ -181,8 +196,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				//"fgcolor"		"235 226 202 255"
+				"textAlignment"	"center"
+				"fgcolor"		"255 255 255 255"
 				
 				if_mvm
 				{
@@ -194,18 +209,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
-				"xpos"			"25"
-				"ypos"			"17"
+				"font"			"Gothic20"
+				"xpos"			"150"
+				"ypos"			"5"
 				"zpos"			"6"
-				"wide"			"25"
+				"wide"			"50"
 				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%chargeamount%"
-				"textAlignment"	"north"
-				"fgcolor"		"0 255 0 255"
+				"textAlignment"	"east"
+				"fgcolor"		"DarkGreen"
 			}
 			
 			"specindex"
@@ -220,7 +235,7 @@
 				"tall"			"8"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"1"
+				"visible"		"0"
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
@@ -249,7 +264,7 @@
 		"ControlName"	"Panel"
 		"fieldName"		"TopBar"
 		"visible"		"0"
-		"tall"			"33"
+		"tall"			"0"
 	}
 	"BottomBar"
 	{
@@ -271,7 +286,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
 		"xpos"			"c-150"
-		"ypos"			"32"
+		"ypos"			"80"
 		"wide"			"300"
 		"tall"			"18"
 		"autoResize"		"0"
@@ -280,7 +295,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"HudFontSmall"
+		"font"			"Respawn"
+		"fgcolor" "White"
 		
 		if_mvm
 		{
