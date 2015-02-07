@@ -397,7 +397,6 @@
 		"ypos"		"285"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef"	"5"
 
@@ -417,7 +416,6 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"40"
 		"priority_lodef" "35"
 		
@@ -434,7 +432,6 @@
 		"ypos"		"412"
 		"wide"	 	"252"
 		"tall"	 	"35"
-		"tall_minmode"	 	"28"
 		"priority"	"35"
 
 		if_vr
@@ -1169,10 +1166,10 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-8"	[$WIN32]
+		"xpos"			"c-50"	[$WIN32]
 		"ypos"			"c130"	[$WIN32]
-		"wide"			"100"
-		"tall"			"30"
+		"wide"			"160"
+		"tall"			"160"
 	}	
 
 	HudTeamGoal
