@@ -446,6 +446,16 @@ Scheme
 	Fonts
 	{
 		// haiku fonts
+		"Icons"
+		{
+		    "1"
+			{
+			    "name" "HaikuIcons"
+				"tall" "16"
+				"weight" "0"
+				"antialias" "1"
+			}
+		}			
 		"Respawn"
 		{
 		    "1"
@@ -6499,6 +6509,11 @@ Scheme
         {
             "font" "resource/fonts/HaikuRespawn.otf"
             "name" "HaikuRespawn"
+        }
+        "24"
+        {
+            "font" "resource/fonts/HaikuIcons.otf"
+            "name" "HaikuIcons"
         }			
 	}
 }
