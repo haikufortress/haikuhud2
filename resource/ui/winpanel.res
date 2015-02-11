@@ -17,7 +17,7 @@
 			"xpos"			"0"
 			"ypos"			"120"
 			"wide"			"190"
-			"tall"			"30"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -32,7 +32,7 @@
 			"xpos"			"190"
 			"ypos"			"120"
 			"wide"			"190"
-			"tall"			"30"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -178,6 +178,7 @@
 		"enabled"		"1"
 		"scaleImage"		"1"	
 		"image" "replay/thumbnails/grey_bg"
+		"alpha" "200"
 	}	
 	"WinningTeamLabel"
 	{	
