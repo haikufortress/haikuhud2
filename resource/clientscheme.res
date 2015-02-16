@@ -29,8 +29,8 @@ Scheme
 		"ClassBG" "80 113 74 125"
 
 		"BoxColor" "88 150 86 150"		
-		"BoxLowColor" "153 54 49 150"
-		"BoxBuffColor" "176 237 111 150"
+		"BoxLowColor" "153 54 49 225"
+		"BoxBuffColor" "176 237 111 225"
 		
 		"GrayBG" "36 34 34 255"
 		"MenuLightGray" "215 215 215 200"
@@ -43,7 +43,7 @@ Scheme
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"145 73 59 255"
 		
-		"White"				"235 235 235 255"
+		"White"				"236 240 241 255"
 		"Red"				"192 28 0 140"
 		"RedSolid"			"192 28 0 255"
 		"Blue"				"0 28 162 140"
@@ -495,6 +495,17 @@ Scheme
 			 
 			"name" "HelveticaNeue-Thin"
 			"tall" "24"
+			"weight" "0"
+			"antialias" "1"
+			}
+		}
+	"IDNumbers"
+		{
+		    "1"
+			{
+			 
+			"name" "Novecento wide Light"
+			"tall" "19"
 			"weight" "0"
 			"antialias" "1"
 			}
@@ -6514,6 +6525,11 @@ Scheme
         {
             "font" "resource/fonts/HaikuIcons.otf"
             "name" "HaikuIcons"
-        }			
+        }		
+        "25"
+        {
+            "font" "resource/fonts/Novecento.ttf"
+            "name" "Novecento wide Light"
+        }	
 	}
 }
