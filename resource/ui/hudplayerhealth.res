@@ -5,7 +5,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-135"
+		"xpos"			"c-235"
 		"ypos"			"r200"
 		"zpos"			"2"
 		"wide"			"250"
@@ -196,7 +196,7 @@
 		"xpos_minmode"	"70"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"31"
+		"wide"			"501"
 		"tall"			"31"
 		"visible"		"1"
 		"enabled"		"1"
@@ -237,6 +237,17 @@
 		"fgcolor"		"TanDark"
 	}
 
+"PlayerStatus_MedicSmallBulletResistImageAnchor"
+{
+"ControlName" "EditablePanel"
+"fieldName" "PlayerStatus_MedicSmallBulletResistImageAnchor"
+"xpos" "120"
+"ypos" "50"
+"wide" "50"
+"tall" "50"
+"visible" "1"
+"enabled" "1"
+}
 	"PlayerStatus_MedicSmallBulletResistImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -252,6 +263,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+"pin_to_sibling" "PlayerStatus_MedicSmallBulletResistImageAnchor"
+"pin_corner_to_sibling" "1"
+"pin_to_sibling_corner" "1"
 	}
 	"PlayerStatus_MedicSmallBlastResistImage"
 	{

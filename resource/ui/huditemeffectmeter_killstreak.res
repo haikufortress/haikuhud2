@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"-30"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
+		"ypos"			"-15"	[$WIN32]
 		"wide"			"150"
 		"tall"			"50"
 		"MeterFG"		"White"
